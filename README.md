@@ -26,7 +26,7 @@ Edit the file `test-login.py`, specifically the payload variable to change usern
 
 ### Register
 
-Registration is on url `localhost/register`, and expects json encoded data in format
+Registration is on url `http://127.0.0.1:5000/register`, and expects json encoded data in format
 
 ```
 {
@@ -39,7 +39,7 @@ This will return a String indicating whether a user has successfully been create
 
 ### Login
 
-Login is on url `localhost/login`, and expects json encoded data in format
+Login is on url `http://127.0.0.1:5000/login`, and expects json encoded data in format
 
 ```
 {
