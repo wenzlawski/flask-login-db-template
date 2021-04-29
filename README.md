@@ -18,6 +18,6 @@ Edit the file `test-login.py`, specifically the payload variable to change usern
 
 ### Access to protected functions using the cookie
 
-!For this method to work, you first have to register and log in a user, as the cookie has to be saved to a file!
+!For this method to work you first have to register and log in a user, as the cookie has to be saved to a file!
 
 `python3 test-protected.py`
